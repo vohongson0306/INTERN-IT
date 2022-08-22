@@ -1,3 +1,5 @@
+<img src="https://nhanhoa.com/uploads/attach/1617597391_ten_mien_la_gi.jpg">
+
 # 1.Khái niệm:
 - Tên miền là địa chỉ duy nhất của website trên internet. Nếu không được mã hóa bằng tên miền mỗi khi muốn truy cập website bạn sẽ phải gõ một địa chỉ IP rất dài và khó nhớ tên trang tìm kiếm. 
 - Ví dụ: Nhanhoa.com là tên miền - địa chỉ website trên Internet của công ty TNHH Phần mềm Nhân Hòa. Việc gõ nhanhoa.com sẽ dễ dàng hơn rất nhiều so với tìm kiếm địa chỉ IP 154.78.625.98
@@ -31,6 +33,8 @@ Ngoài cách phân loại theo vị trí địa lý của website, chúng ta cò
 - Subdomain (tên miền phụ) 
   - Tên miền phụ được tạo ra từ tên miền chính được đăng ký. Tùy vào gói hosting được đăng ký bạn có thể tạo ra vô số tên miền phụ. Phần subdomain thường đứng trước tên miền riêng, ví dụ subdomain.nhanhoa.com là một tên miền phụ trỏ đến dịch vụ riêng trên website Nhân Hòa. 
 # 3.Quy tắc chọn tên miền
+<img src="https://nhanhoa.com/uploads/attach/1617598466_quy_tac_chon_ten_mien.png">
+
 Muốn đăng ký tên miền cho website bạn cần tuân thủ quy tắc do pháp luật và các tổ chức đăng ký tên miền đề ra. Vi phạm quy tắc này bạn sẽ không thể đăng ký thành công. 
 # 3.1.Nguyên tắc về hiển thị 
 - Tên miền tối đa chỉ có 63 ký tự bao gồm cả đuôi tên miền 

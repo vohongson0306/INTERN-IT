@@ -19,7 +19,7 @@ GitHub được coi là một mạng xã hội dành cho lập trình viên lớ
 + Watch project: hỗ trợ theo dõi hoạt động của project của người khác.
 + Follow user: theo dõi hoạt động của người khác.
 - Có 2 cách tiếp cận GitHub: Tạo project của riêng mình Contribute cho project có sẵn: fork project có sẵn của người khác, sửa đổi, sau đó đề nghị họ cập nhật sửa đổi của mình (tạo pull request).
-# 3. Lợi ích của Github đối với lập trình viên
+# 3.Lợi ích của Github đối với lập trình viên
 Khi sử dụng Github sẽ đem lại rất nhiều lợi ích, đối với những nhà lập trình viên sẽ có những ưu điểm đặc biệt, hãy cùng Nhân Hòa tìm kiểu để hiểu rõ hơn về nội dung tổng quan Github là gì?
 - Tracking sự thay đổi qua các version
   - Sẽ khá phức tạp để theo dõi revisons nếu có quá nhiều lập trình viên cùng tham gia một dự án. Những thiết lập cài đặt hay thay đổi các file được stored ở đâu. Khi dùng Github, bạn không cần quá lo lắng đến vấn để đó nữa, Github luôn lưu lại những thay đổi bạn đã push lên repository. Bạn sẽ có một lịch sử phiên bản để phòng trường hợp các phiên bản trước đó bị mất hay không được lưu.

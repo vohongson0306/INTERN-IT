@@ -1,6 +1,6 @@
 # 1. Tìm hiểu địa chỉ email
--Tên đầy đủ của email hay e-mail đó chính là electronic mail. Dịch theo tiếng anh thì cụm từ này có ý nghĩa là thư điện tử. Để hiểu khái niệm, điện tử email là gì bạn có thể hiểu đơn giản, Email với chức năng nhận, gửi thì chúng được coi là một phương tiện trao đổi thông tin thông qua mạng internet.
--Đúng với tên gọi của chúng, Email chỉ có thể sử dụng trên các thiết bị điện tử, ví dụ như điện thoại, máy tính bảng, máy tính,... bạn không cần phải ra bưu điện gửi thư và đợi phản hồi lâu như trước. Hệ thống thư điện tử sẽ tự động lưu trữ và hỗ trợ chuyển tiếp khi cần thiết.
+- Tên đầy đủ của email hay e-mail đó chính là electronic mail. Dịch theo tiếng anh thì cụm từ này có ý nghĩa là thư điện tử. Để hiểu khái niệm, điện tử email là gì bạn có thể hiểu đơn giản, Email với chức năng nhận, gửi thì chúng được coi là một phương tiện trao đổi thông tin thông qua mạng internet.
+- Đúng với tên gọi của chúng, Email chỉ có thể sử dụng trên các thiết bị điện tử, ví dụ như điện thoại, máy tính bảng, máy tính,... bạn không cần phải ra bưu điện gửi thư và đợi phản hồi lâu như trước. Hệ thống thư điện tử sẽ tự động lưu trữ và hỗ trợ chuyển tiếp khi cần thiết.
   # Ý nghĩa của địa chỉ email
   Để có cái nhìn tổng quan hơn về ý nghĩa của địa chỉ email là gì, hãy cũng Nhân Hòa phân tích cấu trúc, thành phần trong email.
 - Địa chỉ email có cấu trúc như sau: tên email@domain

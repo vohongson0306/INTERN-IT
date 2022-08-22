@@ -61,6 +61,7 @@ Sau khi đã hiểu tất cả các thông tin cơ bản của tên miền, vi�
 - Nhân Hòa là 1 trong 9 nhà đăng ký tên miền chính thức của VNNIC và luôn giữ vững vị thế trong top 3. Khi đăng ký tên miền tại Nhân Hòa bạn không chỉ nhận được sự uy tín, hỗ trợ kịp thời mà các dịch vụ còn được trợ giá với giá khuyến mãi cực kỳ tốt. 
 # 5.2.Mua nên miền ở những nơi có hợp đồng dài hạn và pháp nhân rõ ràng 
 # 5.3.Ưu tiên chọn mua tên miền có hỗ trợ khách hàng tận tình 
+Tên miền liên quan đến nhiều dịch vụ khác như hosting lưu trữ, máy chủ hay nền tảng website. Chính vì thế bạn nên chọn nhà đăng ký có toàn diện dịch vụ này để tối ưu thời gian quản lý website. Ngoài ra khi có phát sinh vấn đề cũng được hỗ trợ tốt nhất do 1 bên kiểm soát nhiều lĩnh vực. Đội ngũ kỹ thuật, đội ngũ chăm sóc khách hàng là các yếu tố bạn nên quan tâm khi muốn chọn nhà đăng ký tên miền. 
 # 6. Nhân Hòa - nhà đăng ký tên miền uy tín 
 Với hơn 20 năm kinh nghiệm trong dịch vụ đăng ký tên miền đã đáp ứng yêu cầu của hàng nghìn khách hàng chúng tôi tự tin là nhà đăng ký tên miền uy tín 
 - Là nhà đăng ký tên miền chính thức được VNNIC và ICANN công nhận 

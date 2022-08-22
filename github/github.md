@@ -1,3 +1,5 @@
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLRsUTXClIZU_PWQoCkKZUnzdFGXay0jVzVQ&usqp=CAU">
+
 # 1.Khái niệm
 Github là kho lưu trữ mã nguồn Git cho các dự án phần mềm, đây là một dịch vụ nổi tiếng được nhiều người sử dụng. Không những có đầy đủ những tính năng của Git, Github còn được bổ sung những tính năng đặc biệt về social để các developer tương tác với nhau.
 - **Những thông tin cơ bản của Git**

@@ -55,7 +55,7 @@ Bao gồm các thiết bị phần cứng giúp truyền tải dữ liệu như 
 
   -  Các tầng không thể hoạt động song song, tầng dưới phải chờ dữ liệu từ tầng trên
 # II.Mô hình TCP/IP
-<img src="https://datech.vn/uploads/seo-traffic-gob/tcp-ip-la-gi-3.jpg">
+<img src="https://wiki.matbao.net/wp-content/uploads/2019/08/tcp-ip-la-gi-tcp-ip-hoat-dong-hieu-qua-tren-nhieu-he-thong-khac-nhau.png">
 
 ## 1.Khái niệm
 TCP/IP là giao thức điều khiển truyền nhận/ giao thức liên mạng. Các máy tính có thể giao tiếp trên cùng một mạng như Internet thông qua một tập hợp các quy tắc của bộ giao thức trao đổi thông tin được tiêu chuẩn hóa. Bên cạnh đó, TCP/IP có khả năng phục hồi tự động.
@@ -80,4 +80,33 @@ Hiện nay, TCP/IP có 3 giao thức luôn được dùng phổ biến đó là:
 - Giao thức FTP
   - Nhờ FTP, các máy tính có thể gửi và nhận dữ liệu đến nhau một các trực tiếp vì FTP là phương thức trao đổi file được sử dụng giữa hai hoặc nhiều máy tính thông qua Internet.
 ## 4.Các tầng trong mô hình TCP/IP
-<img src="https://wiki.matbao.net/wp-content/uploads/2019/08/tcp-ip-la-gi-tcp-ip-hoat-dong-hieu-qua-tren-nhieu-he-thong-khac-nhau.png">
+<img src="https://datech.vn/uploads/seo-traffic-gob/tcp-ip-la-gi-3.jpg">
+
+### 4.1.Tầng 4: Application
+Tầng Application hay còn gọi là tầng ứng dụng. Tầng ứng dụng đảm nhận vai trò giao tiếp dữ liệu giữa 2 máy khác nhau thông qua các dịch vụ mạng khác nhau (duyệt web, chay hay các giao thức trao đổi dữ liệu SMTP, SSH, FTP…). Dữ liệu khi đến được tầng 4 sẽ được định dạng để kết nối theo kiểu Byte nối Byte. Các thông tin định tuyến tại đây sẽ giúp xác định đường đi đúng của một gói tin
+
+### 4.2.Tầng 3: Transport
+Tầng dữ liệu hoạt động thông qua hai giao thức chính là TCP (Transmisson Control Protocol) và UDP (User Datagram Protocol).
+
+TCP sẽ đảm bảo chất lượng truyền gửi gói tin, tuy nhiên lại mất thời gian khá lâu để thực hiện các thủ tục kiếm soát dữ liệu. Ngược lại, UDP lại cho tốc độ truyền tải nhanh nhưng lại không đảm bảo được chất lượng dữ liệu. Ở tầng này, TCP và UDP sẽ hỗ trợ nhau phân luồng dữ liệu.
+### 4.3.Tầng 2: Internet
+Tầng Internet đảm nhận việc truyền tải dữ liệu một cách hợp lý. Các giao thức của tầng này bao gồm IP (Internet Protocol), ICMP (Internet Control Message Protocol), IGMP (Internet Group Message Protocol).
+### 4.4.Tầng 1: Physical
+Tầng vật lý (còn được gọi là tầng liên kết dữ liệu) là tầng thấp nhất trong mô hình TCP/IP. Tầng này chịu trách nhiệm truyền dữ liệu giữa hai thiết bị trong cùng một mạng. Tại đây, các gói dữ liệu được đóng vào khung (gọi là Frame) và được định tuyến đi đến đích đã được chỉ định ban đầu.
+# So sánh giữa 2 mô hình
+– Giống nhau: Mô hình OSI và TCP/IP có một số điểm chung như sau:
+  - OSI và TCP/IP đều có kiến trúc phân lớp.
+  - OSI và TCP/IP đều có lớp Network và lớp Transport.
+  - OSI và TCP/IP cùng sử dụng kỹ thuật chuyển Packet.
+
+- Khác nhau: 
+
+|  | Mô hình OSI | Mô hình TCP/IP| 
+|--------------|-------|------|
+| Độ tin cậy phổ biến | Nhiều người cho rằng đây là mô hình cũ, chỉ để tham khảo, số người sử dụng hạn chế hơn so với TCP/IP | Được chuẩn hóa, nhiều người tin cậy và sử dụng phổ biến trên toàn cầu |
+| Phương pháp tiếp cận | Tiếp cận theo chiều dọc | Tiếp cận theo chiều ngang | 
+|Sự kết hợp giữa các tầng|Mỗi tầng khác nhau sẽ thực hiện một nhiệm vụ khác nhau, không có sự kết hợp giữa bất cứ tầng nào|Trong tầng ứng dụng có tầng trình diễn và tầng phiên được kết hợp với nhau|
+|Thiết kế |Phát triển mô hình trước sau đó sẽ phát triển giao thức|	Các giao thức được thiết kế trước sau đó phát triển mô hình|
+|Số lớp (tầng)|7|4|
+|Truyền thông|Hỗ trợ cả kết nối định tuyến và không dây|Hỗ trợ truyền thông không kết nối từ tầng mạng|
+|Tính phục thuộc|Giao thức độc lập|Phụ thuộc vào giao thức|

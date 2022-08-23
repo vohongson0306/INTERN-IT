@@ -22,7 +22,7 @@ DNS Server gồm hai loại là Root Name Server và Local Name Server
 - DNS root Server sẽ căn cứ và dựa vào các Top Level của tên miền và từ đó có những tài liệu hướng dẫn phù hợp để chuyển hướng cho khách hàng đến đúng địa chỉ cần truy vấn.
 ## 4.2.Local Name Server
 - DNS Server này dùng để chứa thông tin để truy xuất và tìm kiếm máy chủ tên miền. Và thường được duy trì và phát triển bởi các doanh nghiệp hay các nhà cung cấp dịch vụ Internet.
-## 5.Cách sử dụng DNS
+# 5.Cách sử dụng DNS
 Nếu bạn sử dụng DNS của nhà cung cấp mạng thì bạn sẽ không cần điền địa chỉ DNS. Nhưng neeys trường hợp bạn sử dụng DNS khác, thì bạn phải điền địa chỉ cụ thể của máy chủ đó để thay đổi DNS Server:
 - Bước 1: Nhấn vào Start Menu > Gõ Control Panel > Chọn Control Panel.
 - Bước 2: Truy cập vào View network status and task.

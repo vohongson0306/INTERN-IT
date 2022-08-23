@@ -99,7 +99,7 @@ Tầng vật lý (còn được gọi là tầng liên kết dữ liệu) là t�
   - OSI và TCP/IP đều có lớp Network và lớp Transport.
   - OSI và TCP/IP cùng sử dụng kỹ thuật chuyển Packet.
 
-- Khác nhau: 
+- Khác nhau
 
 |  | Mô hình OSI | Mô hình TCP/IP| 
 |--------------|-------|------|

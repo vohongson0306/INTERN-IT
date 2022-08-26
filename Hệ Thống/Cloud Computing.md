@@ -14,7 +14,7 @@ Với mô hình điện toán đám mây, người dùng sẽ được tiếp c�
   - Đặc biệt Public Cloud có chi phí đầu tư thấp. Tiết kiệm được hệ thống máy chủ, giảm gánh nặng quản lý, cơ sở hạ tầng
   - Đám mây công cộng còn có thể co giãn theo nhu cầu thực tế của người sử dụng
 - Nhược điểm
-  -Mất an toàn và khó kiểm soát dữ liệu
+  - Mất an toàn và khó kiểm soát dữ liệu
 ## Private Cloud (Điện toán đám mây riêng)
 - Private Cloud là dịch vụ điện toán đám mây riêng thường được cung cấp cho các doanh nghiệp để đảm bảo an toàn dữ liệu. Private cloud sẽ được bảo vệ bên trong tường lửa của công ty và doanh nghiệp trực tiếp quản lý
 

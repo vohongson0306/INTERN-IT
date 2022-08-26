@@ -51,3 +51,7 @@ Hệ điều hành sẽ đảm nhiệm 3 nhiệm vụ chính là mang đến gia
     - Ví dụ: Một đơn vị nhà máy sản xuất sẽ tạo ra vô số tín hiệu cảm biến và gửi tín hiệu vận hành van, bộ truyền động, động cơ và các thiết bị khác. Hệ thống điều khiển công nghiệp có nhiệm vụ quản lý các hoạt động này của nhà máy bằng cách phản ứng nhanh để dự đoán các điều kiện thực tế thay đổi. RTOS sẽ tự động kích hoạt mà không có hỗ trợ từ bộ đệm hay độ trễ xử lý.
   - RTOS có thể bao gồm các đặc điểm của hệ điều hành khác và ngược lại.
     - Ví dụ: Hệ điều hành đa năng có các tính năng của NOS hay hệ điều hành nhúng có các tính năng của RTOS.
+# 4.Các hệ điều hành được sử dụng trong doanh nghiệp
+- Window
+- linux
+- MacOS

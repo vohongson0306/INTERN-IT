@@ -1,5 +1,13 @@
-<img src="">
+<img src="https://sunhitech.vn/images/items/VMwareWorkstation/vm.8.png">
 
+# YÊU CẦU HỆ THỐNG CỦA VMWARE WORKSTATION 16
+Cấu hình khuyến nghị dành cho Vmware Workstation 16 như sau:
+- Hệ điều hành: Windows 7/ 8/ 10 hoặc Server 2008/ 2012/ 2016 (Hỗ trợ nền tảng 64 Bit)
+- CPU:3 GHz đa nhân hoặc cao hơn
+- Bộ nhớ RAM: Tối thiểu 2 GB (Khuyến nghị 4GB hoặc cao hơn)
+- Hỗ trợ: DirectX 10
+- Ổ đĩa trống: 5 GB
+- Độ phân giải: 1024 x 768
 # CÀI ĐẶT VMWARE WORKSTATION 16
 ## Bước 1: Tải VMware workstation 16 về máy
 https://drive.google.com/file/d/1BxcDTcv-bv6SJenT2HIFbuoAOapKII3p/view

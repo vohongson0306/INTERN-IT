@@ -42,7 +42,7 @@ Với mô hình điện toán đám mây, người dùng sẽ được tiếp c�
 - Nhược điểm
   - Việc điều hành, quản lý tương đối khó khăn
   - Cần tốn nhiều chi phí để xây dựng, triển khai
-# 3. Phân loại các Cloud Computing phổ biến nhất hiện nay
+# 3.Phân loại các Cloud Computing phổ biến nhất hiện nay
 <img src="https://diginet.com.vn/wp-content/uploads/2020/11/cloud-computing-va-3-dich-vu-pho-bien-cho-ban-lua-chon-3.jpg">
 
 ## Infrastructure as a service (Iaas) - Dịch vụ cơ sở hạ tầng

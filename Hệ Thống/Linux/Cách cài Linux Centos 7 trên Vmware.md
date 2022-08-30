@@ -2,7 +2,7 @@
 ## Chuẩn bị:
 + Cài đặt VMware workstation Pro 
 + Souce ios centos 7 ( www.centos.org/download/)
-+ Cấu hình tối thiểu : Ổ cứng : 40 GB , RAM : 4G
++ Cấu hình tối thiểu : Ổ cứng : 40 GB , RAM : 1G
 + Cấu hình khuyến cáo : Ổ cứng : 100GB , RAM : 8GB đối với 64bit.
 ## Cài đặt 
 ### Bước 1: Khởi động máy ảo VMware > File > New Virtual Machine.

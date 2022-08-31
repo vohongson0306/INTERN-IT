@@ -161,6 +161,24 @@
 | cd  | Thay đổi folder làm việc đến một folder mới (tương tự như trong DOS ) |
 | df  | Kiểm tra disk space |
 
-# 
+# Lệnh nén và giải nén
+| lệnh Linux | Mô tả |
+|--------------|------|
+| tar -cvf	| Nén file/thư mục sang định dạng .tar|
+| tar -xvf	| Giải nén file tar |
+| gzip	| Chuyển file .tar sang .tar.gz |
+| gunzip	| Chuyển file .tar.gz về .tar |
+| tar -xzf	| Giải nén file .tar.gz, ví dụ:  tar -xvf archive.tar |
+| tar -zxvf	| Giải nén file .tar.bz2 |
+| tar -jxvf	| Giải nén file .tar.gz2 |
+| unzip	| Giải nén file zip | 
+
+# Lệnh sao lưu và phục hồi database
+| lệnh Linux | Mô tả |
+|--------------|------|
+| mysqldump -u root -p[dbpass] [databasename] > [database.sql]	| Sao lưu database ra file .sql |
+| mysqldump -u root -p[dbpass] [databasename] │ gzip -9 > [backupfile].sql.gz	| Sao lưu database và nén lại dưới dạng .gz |
+| mysql -u username -p[dbpass] [databasename] < [database].sql | Khôi phục database |
+
 
 

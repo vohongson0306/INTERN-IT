@@ -1,4 +1,4 @@
-# 1.Tổng quan
+# Tổng quan
 - Thông tin hệ thống và bản phát hành
 
 ![image](https://user-images.githubusercontent.com/110179869/187817308-832f6c10-c248-4102-a89c-a86cfc174b72.png)

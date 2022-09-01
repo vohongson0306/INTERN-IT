@@ -8,11 +8,26 @@
 - unmount: ngược với lệnh mount.
 # lệnh thao tác trên tập tin
 - ls -lah: hiện các danh sách ẩn.
+
+![image](https://user-images.githubusercontent.com/110179869/187813124-52f9b41d-8830-47fc-800c-0ccdbc3bf5df.png)
+
 - ls: lấy danh sách tất cả các file và thư mục trong thư mục hiện hành.
+
+![image](https://user-images.githubusercontent.com/110179869/187813202-7a2d0fc3-ad00-4349-bb23-54560410a3b9.png)
+
 - pwd: xuất đường dẫn của thư mục làm việc.
+
+![image](https://user-images.githubusercontent.com/110179869/187813258-d8deb9ae-69ec-4993-8da5-4b4125c5ceda.png)
+
 - cd: thay đổi thư mục làm việc đến một thư mục mới.
 - mkdir: tạo thư mục mới.
+
+![image](https://user-images.githubusercontent.com/110179869/187813445-196527ed-2b35-4e14-a73a-21b0cc74290d.png)
+
 - rmdir: xoá thư mục rỗng.
+
+![image](https://user-images.githubusercontent.com/110179869/187813536-ccbd2cd0-84d7-46c1-a727-2cd94588adbb.png)
+
 - cp:copy một hay nhiều tập tin đến thư mục mới.
 - mv: đổi tên hay di chuyển tập tin, thư mục.
 - rm: xoá tập tin.
@@ -20,23 +35,47 @@
 - touch:tạo 1 tập tin.
 - cat: xem nội dung tập tin.
 - vi: khởi động trình soạn thảo văn bản vi.
+
+![image](https://user-images.githubusercontent.com/110179869/187813804-36ec2988-2a81-466b-8f0c-471b7734d5a6.png)
+
 - df: kiểm tra dung lượng đĩa.
+
+![image](https://user-images.githubusercontent.com/110179869/187813733-9a11ea31-c863-480a-9360-411dd90390e0.png)
+
 - du: xem dung lượng đĩa đã dùng cho một số tập tin nhất định.
+
+![image](https://user-images.githubusercontent.com/110179869/187813707-6b0e3bae-ea66-437a-996f-11d9aaff625d.png)
+
 - nano:khởi động trình soạn thảo văn bản nano.
+
+![image](https://user-images.githubusercontent.com/110179869/187814186-54d24c4f-5f04-414f-8095-7ed5e48c0348.png)
+
 - less:Xem tập tin theo dòng lệnh.
+
+![image](https://user-images.githubusercontent.com/110179869/187814378-442c9582-eece-43bb-9380-28bd3b8be095.png)
+
 - tail:xem nội dung tập tin( mặc định xem 10 dòng cuối, muốn xem 100 dòng cuối thì dùng lệnh sau : tail 100 tenfile)
 - more: xem nội dung tập tin theo trang.
 - head: xem nội dung tập tin (mặc định xem 10 dòng đầu, muốn xem 100 dòng đầu thì dùng lệnh sau : head 100 tenfile)
 # lệnh khi làm việc trên terminal
 - clear: xoá trắng cửa sổ dòng lệnh.
 - date: xem ngày, giờ hệ thống.
+
+![image](https://user-images.githubusercontent.com/110179869/187814617-de7ff49f-6e0c-4cde-bc24-95b936301660.png)
+
 - cal: xem lịch hệ thống.
 # Lệnh quản lí hệ thống
 - rpm: kiểm tra gói đã cài đặt hay chưa, hoặc cài đặt một gói, hoặc sử dụng để gỡ bỏ một gói
 - ps: kiểm tra hệ thống tiến trình đang chạy.
 - kill: dừng tiến trình khi tiến trình bị treo. Chỉ có người dùng supper-user mới có thể dừng tất cả các tiến trình còn người dùng bình thường chỉ  có thể dừng tuieens trình mà mình tạo ra.
 - top: hiển thị sự hoạt động của các tiến trình, đặc biệt là thông tin về tài nguyên hệ thống vè việc sử dụng các tài nguyên đó của từng tiến trình .
+
+![image](https://user-images.githubusercontent.com/110179869/187814523-d46f93fb-816d-4a44-bf6c-4b20ab37fdc3.png)
+
 - pstree: hiển thị tất cả các tiến trình dưới dạng cây.
+
+![image](https://user-images.githubusercontent.com/110179869/187815654-622ef411-c95f-4356-99c3-e7b12a873d09.png)
+
 - sleep: cho hệ thống dừng hoạt động trong 1 khoảng thời gian.
 - useradd: tạo 1 người dùng mới. 
 - groupadd: tạo 1 nhóm người dùng mới.
@@ -47,8 +86,17 @@
 - su: cho phép đăng nhập với tư cách của người dùng khác.
 - groups: hiển thị nhóm của user hiện tại.
 - who: cho biết ai đang đăng nhập hệ thống.
+
+![image](https://user-images.githubusercontent.com/110179869/187814836-6d676078-34a4-42f9-a51f-a013c76fb03a.png)
+
 - w:tương tự như lệnh who.
+
+![image](https://user-images.githubusercontent.com/110179869/187814877-505966ca-6934-4e19-8537-5d4e170d29eb.png)
+
 - man:xem hướng dẫn về dòng lệnh như cú pháp, các tham số.
+
+![image](https://user-images.githubusercontent.com/110179869/187814915-bbc834a5-b283-41e1-9589-1c590cb63741.png)
+
 # Các câu lệnh kiểm tra thông tin hệ thống ( system information)
 | Lệnh Linux | Mô tả |
 |----------------|------------|

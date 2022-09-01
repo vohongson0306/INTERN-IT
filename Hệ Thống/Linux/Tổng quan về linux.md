@@ -23,3 +23,19 @@
 - Hệ /proc thống tệp chứa các tệp ảo chỉ tồn tại trong bộ nhớ. Hệ thống tệp này chứa các tệp và thư mục bắt chước cấu trúc hạt nhân và thông tin cấu hình. Nó không chứa các tệp thực nhưng thông tin hệ thống thời gian chạy (ví dụ: bộ nhớ hệ thống, thiết bị được gắn kết, cấu hình phần cứng, v.v.). Một số tệp quan trọng trong /proc là:
 <img src="https://user-images.githubusercontent.com/95491130/181414437-fd59b1d5-f508-4526-9743-b45896fd4e35.png">
 
+- Kiểm tra các phân vùng và mức độ sử dụng trên các phân vùng
+
+![image](https://user-images.githubusercontent.com/110179869/187819796-80c6273c-f72a-45b3-87e3-d547b09da7ad.png)
+
+- Kiểm tra số lượng CPU của VPS:
+
+![image](https://user-images.githubusercontent.com/110179869/187819858-6f643575-1c27-4c2b-a5f5-fd357c51bb8f.png)
+
+- Kiểm tra dung lượng RAM
+
+![image](https://user-images.githubusercontent.com/110179869/187819944-61c558b2-b154-48d9-bc3e-211f3f760771.png)
+
+- Kiểm tra
+
+![image](https://user-images.githubusercontent.com/110179869/187820006-3ac0e2e6-0629-436c-99fe-f77abd3f6d8b.png)
+

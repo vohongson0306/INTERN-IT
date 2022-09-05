@@ -6,7 +6,7 @@
 - Mã SHA1: f185197af68fae4f0e06510a4579fc511ba27616
 - Mã MD5: e02d2e482b0f3dab915435e9040c13b4
 - Ngày phát hành: 2017-01-12 00:00:00
-# Các bước cài
+# Các Bước Cài Đặt
 ## Bước 1:Download iso windowsever 2016
 ![image](https://user-images.githubusercontent.com/110179869/187331904-5692cbf1-9a3f-498c-8ada-49d5fec78b3c.png)
 

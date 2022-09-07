@@ -61,12 +61,19 @@
 - clear: xoá trắng cửa sổ dòng lệnh.
 - date: xem ngày, giờ hệ thống.
 
+![image](https://user-images.githubusercontent.com/110179869/188784370-386f86cf-3ca0-404e-9206-375785767ab1.png)
+
+
 ![image](https://user-images.githubusercontent.com/110179869/187814617-de7ff49f-6e0c-4cde-bc24-95b936301660.png)
 
 - cal: xem lịch hệ thống.
+![image](https://user-images.githubusercontent.com/110179869/188784127-b69bf49e-66a8-464b-944f-dc22bb050828.png)
+
 # Lệnh quản lí hệ thống
 - rpm: kiểm tra gói đã cài đặt hay chưa, hoặc cài đặt một gói, hoặc sử dụng để gỡ bỏ một gói
 - ps: kiểm tra hệ thống tiến trình đang chạy.
+![image](https://user-images.githubusercontent.com/110179869/188784242-4afd2492-6229-46eb-9787-2e0b57045136.png)
+
 - kill: dừng tiến trình khi tiến trình bị treo. Chỉ có người dùng supper-user mới có thể dừng tất cả các tiến trình còn người dùng bình thường chỉ  có thể dừng tuieens trình mà mình tạo ra.
 - top: hiển thị sự hoạt động của các tiến trình, đặc biệt là thông tin về tài nguyên hệ thống vè việc sử dụng các tài nguyên đó của từng tiến trình .
 

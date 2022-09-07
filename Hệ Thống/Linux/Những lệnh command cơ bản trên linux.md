@@ -67,6 +67,7 @@
 ![image](https://user-images.githubusercontent.com/110179869/187814617-de7ff49f-6e0c-4cde-bc24-95b936301660.png)
 
 - cal: xem lịch hệ thống.
+
 ![image](https://user-images.githubusercontent.com/110179869/188784127-b69bf49e-66a8-464b-944f-dc22bb050828.png)
 
 # Lệnh quản lí hệ thống

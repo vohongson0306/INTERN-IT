@@ -54,3 +54,5 @@ Ngoài máy chủ mail proxy của Nginx còn hỗ trợ SSL, STARTTLS và STLS.
 | Hỗ trợ | Có đội ngũ chuyên nghiệp thực hiện | Do cộng đồng hỗ trợ |
 | Đa Luồng | Khả năng tiếp cận không đồng bộ xử lý đa luồng | Có kiến trúc đa luồng nhưng khó có khả năng mở rộng |
 | Cung cấp nội dung tĩnh | Dựa vào quy trình bên ngoài để thực thi và xử lý nội dung nội bộ kém | Cung cấp nội dung bằng phương pháp thông thường và xử lý nội bộ dựa trên máy chủ wed |
+| Khả năng xử lý cùng lúc | Cùng lúc nhiều kết nối | Chỉ một kết nối |
+| Khả năng xử lý yêu cầu của Client | xử lý nhiều yêu cầu của máy khách đồng thời với tài nguyên phần cứng tối thiểu | Cung cấp nhiều mo-dun đa xử lý các yêu cầu của máy khách và lưu lượng truy cập wed |

@@ -2,7 +2,6 @@
 
 # 1.Khái niệm
 NGINX hay còn được viết cách điệu là NGIИX, là một web server mã nguồn mở vô cùng mạnh mẽ và nổi tiếng phục vụ web HTTP. Với NGIИX sử dụng kiến thức đơn luồng, (event-driven) không đồng bộ (asynchronous) để có hiệu suất và sự ổn định tối đa và là lựa chọn ưa chuộng hơn Apache server. Nó có thể phục vụ các công việc như như load balancing, HTTP caching, hay sử dụng như một reverse reverse proxying, media streaming và email proxy như IMAP, POP3, và SMTP….  
-
 # Những tính năng của máy chủ HTTP Nginx
 - Có khả năng xử lý hơn 10.000 kết nối cùng lúc với bộ nhớ thấp.
 - Phục vụ tập tin tĩnh (static files) và lập chỉ mục tập tin.

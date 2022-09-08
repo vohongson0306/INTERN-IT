@@ -21,3 +21,28 @@ Tiến trình (processes) được hiểu đơn giản là một chương trình
 - Để tìm các zombie process ta gõ kiểm tra trạng thái của tiến trình theo lệnh sau:
 ## 2.4 Daemon Process
 Một Daemon Process là một tiến trình chạy nền. Nó sẽ luôn trong trạng thái hoạt động và sẽ được kích hoạt bởi một điều kiện hoặc câu lệnh nào đó. Trong Unix, các daemon thường được kết thúc bằng “d” ví dụ như httpd, sshd, crond, mysqld,…
+# 3.Các lệnh về Process
+-f : hiển thị đầy đủ thông tin về các process
+
+![image](https://user-images.githubusercontent.com/110179869/189083524-9026e042-3fa3-4f29-95f0-dad918298600.png)
+
+-e : hiển thị đầy đủ các process ( bao gồm cả system process )
+
+![image](https://user-images.githubusercontent.com/110179869/189083724-2409a313-f128-4d33-b9a6-eb2bd721671b.png)
+
+
+-aux = -ef : hiển thị đầy đủ thông tin về tất cả các process
+
+![image](https://user-images.githubusercontent.com/110179869/189083854-3748fe24-c208-4916-8fe4-12c6a5ef3aa4.png)
+
+
+-u : hiển thị các process liên quan đến user hiện hành
+
+![image](https://user-images.githubusercontent.com/110179869/189083588-609005ac-2f57-4cf4-82f2-696667aae072.png)
+
+
+-p PID : hiển thị thông tin process cụ thể
+
+-pgrep ssh :để tìm kiếm bất kỳ quy trình liên quan đến SSH nào trên hệ thống
+
+![image](https://user-images.githubusercontent.com/110179869/189084694-581a327c-51d6-43ee-a244-6bb41fdc10cc.png)

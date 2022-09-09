@@ -42,7 +42,6 @@ Một Daemon Process là một tiến trình chạy nền. Nó sẽ luôn trong 
 
 
 -p PID : hiển thị thông tin process cụ thể
-
 -pgrep ssh :để tìm kiếm bất kỳ quy trình liên quan đến SSH nào trên hệ thống
 
 ![image](https://user-images.githubusercontent.com/110179869/189084694-581a327c-51d6-43ee-a244-6bb41fdc10cc.png)

@@ -55,3 +55,11 @@ Có một vài cách để thực thi file shell
     ```
 ![image](https://user-images.githubusercontent.com/110179869/189562660-361ad650-b81c-41b0-9deb-573046881ec4.png)
 
+## 3.Bash shell sử dụng một số toán tử số học thường được dùng trên các ngôn ngữ lập trình:
+![image](https://user-images.githubusercontent.com/110179869/189609055-7a25f21b-652b-49da-8758-85b839d5745c.png)
+
+## 4.Chúng ta có thể so sánh các giá trị bằng cách sau:
+![image](https://user-images.githubusercontent.com/110179869/189609118-b362aec9-3939-49c6-8d37-8b12899a4b25.png)
+
+## 5.một số biến đặc biệt mà bạn có thể sử dụng trong lập trình bash shell:
+![image](https://user-images.githubusercontent.com/110179869/189609249-3ca3e984-46bb-4603-983f-39d4b163279a.png)

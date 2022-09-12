@@ -42,3 +42,6 @@
  `Tải lại bảng đặc quyền ngay bây giờ`
  
 ![image](https://user-images.githubusercontent.com/110179869/189565407-5c31b472-4ab7-4fa0-9368-2e36fb59ed02.png)
+
+# Bước 4: Đăng nhập vào MariaDB Server với lệnh `mysql -u root -p` và nhập mật khẩu root vừa đổi:
+![image](https://user-images.githubusercontent.com/110179869/189566631-ed2a46f9-66d4-4c88-a29b-26cf3a818b66.png)

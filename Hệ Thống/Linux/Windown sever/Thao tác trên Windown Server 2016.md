@@ -24,8 +24,7 @@
 
 `ipconfig /all`
 
-![image](https://user-images.githubusercontent.com/110179869/190087495-6f9cdec7-0c5e-4a7f-9d31-876f8c715f8d.png)
-
+![image](https://user-images.githubusercontent.com/110179869/190090314-743ba9d6-4100-4482-afba-bdccecbf7b6e.png)
 
 ### Cách 2: Chạy Server Manager và chọn Local Server trên bảng điều khiển bên trái, rồi nhấp vào phần Ethernet trên bảng điều khiển bên phải
 
@@ -37,13 +36,13 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/190084402-b305ea80-ada0-49fe-a7f6-f4eaf1593b74.png)
 
-- Đặt địa chỉ IP tĩnh, gateway và các địa chỉ khác cho mạng cục bộ
+- Đặt địa chỉ IP tĩnh, `gateway`và các địa chỉ khác cho mạng cục bộ
 
-![image](https://user-images.githubusercontent.com/110179869/190084887-57c33eb5-540e-44c9-bc2f-4868165d6456.png)
+![image](https://user-images.githubusercontent.com/110179869/190090733-30466877-7107-490d-8a0a-a71eee409862.png)
 
 - Sau khi đặt địa chỉ IP tĩnh, các thay đổi sẽ được kích hoạt trên Server Manager
 
-![image](https://user-images.githubusercontent.com/110179869/190085153-5bcecda7-64f2-4754-b14d-366e0232cef8.png)
+![image](https://user-images.githubusercontent.com/110179869/190090932-298d69d4-2f05-4c8f-8824-a4699405e1de.png)
 
 # 2.Thay đổi tên máy tính
 - Tên máy tính được gán tự động theo mặc định, ta cần thay đổi nó
@@ -56,4 +55,4 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/190085747-618dee53-b28d-4d3d-9550-4b167ec0a14b.png)
 
-![image](https://user-images.githubusercontent.com/110179869/190086104-1317ae89-6b13-4317-969c-4a09b0869927.png)
+![image](https://user-images.githubusercontent.com/110179869/190091066-740b25f1-173f-4472-8032-a6c9959b1061.png)

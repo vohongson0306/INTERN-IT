@@ -9,6 +9,7 @@ Tiến trình (processes) được hiểu đơn giản là một chương trình
 - Trong hệ điều hành linux các tiến trình được phân thành parents process và child process. Một tiến trình khi thực hiện lệnh fork() để tạo ra một tiến trình mới thì đưọc gọi là parents process. Tiến trình mới tạo được gọi là child process.
 <img src="https://wiki.tino.org/wp-content/uploads/2019/10/process01.png">
 - Một parents process có thể có nhiều child process nhưng một child process chỉ có một parents process. Khi quan sát thông tin của một tiến trình, ngoài PID (Processes ID) ta cần để ý tới PPID (Parent Processes ID). Nó sẽ cho ta thông tin về parents process của tiến trình đó:
+
 `ps -ef`
 
 ![image](https://user-images.githubusercontent.com/110179869/189081047-34f3c5c5-bd25-41c3-a266-84c3a97f1bae.png)

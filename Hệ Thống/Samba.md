@@ -27,14 +27,24 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/190939860-9e73331c-80aa-4ea0-a769-faf0f9c763cf.png)
 
+# CentOS 7 có thể cần mở firewall cho Samba
+```sh
+firewall-cmd --permanent --zone=public --add-service=samba
+firewall-cmd --reload
+```
+
+![image](https://user-images.githubusercontent.com/110179869/190941661-fbe0d6e5-06bb-4966-9ec7-790cd872c2fd.png)
+
 # Chia sẻ một thư mục public
 `mv /etc/samba/smb.conf /etc/samba/smb.conf.bak`     # Sao lưu
 
 ![image](https://user-images.githubusercontent.com/110179869/190940342-ba800ff8-ba66-400d-ab22-61c80f3078d5.png)
 
-`vi /etc/samba/smb.conf`      
+`vi /etc/samba/smb.conf`  
 
 ![image](https://user-images.githubusercontent.com/110179869/190940371-a61cf5b4-6585-4701-8733-5c3881ea658e.png)
+
+![image](https://user-images.githubusercontent.com/110179869/190941881-b27030e8-abba-44a9-8e42-5f76fa0f088d.png)
 
 Nhập vào nội dung sau:
 
@@ -82,3 +92,6 @@ read only = no
 
 ![image](https://user-images.githubusercontent.com/110179869/190940865-e236485b-39bf-4e03-ae45-d6a4583c6258.png)
 
+![image](https://user-images.githubusercontent.com/110179869/190942144-b0fc37fc-fb83-4525-a420-b8bbc4687a3b.png)
+
+![image](https://user-images.githubusercontent.com/110179869/190942167-9a6d1ab5-b5f5-4168-809f-8b18a74ef8de.png)

@@ -1,4 +1,4 @@
-# Cài đặt Samba Server
+# 1.Cài đặt Samba Server
 `yum update -y`
 
 ![image](https://user-images.githubusercontent.com/110179869/190939602-02ba395a-9e21-41ea-8b5c-7cb67e473d63.png)
@@ -27,7 +27,7 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/190939860-9e73331c-80aa-4ea0-a769-faf0f9c763cf.png)
 
-# CentOS 7 có thể cần mở firewall cho Samba
+## CentOS 7 có thể cần mở firewall cho Samba
 ```sh
 firewall-cmd --permanent --zone=public --add-service=samba
 firewall-cmd --reload
@@ -35,7 +35,7 @@ firewall-cmd --reload
 
 ![image](https://user-images.githubusercontent.com/110179869/190941661-fbe0d6e5-06bb-4966-9ec7-790cd872c2fd.png)
 
-# Chia sẻ một thư mục public
+# 2.Chia sẻ một thư mục public
 `mv /etc/samba/smb.conf /etc/samba/smb.conf.bak`     # Sao lưu
 
 ![image](https://user-images.githubusercontent.com/110179869/190940342-ba800ff8-ba66-400d-ab22-61c80f3078d5.png)
@@ -46,7 +46,7 @@ firewall-cmd --reload
 
 ![image](https://user-images.githubusercontent.com/110179869/190941881-b27030e8-abba-44a9-8e42-5f76fa0f088d.png)
 
-Nhập vào nội dung sau:
+## Nhập vào nội dung sau:
 
 ```sh
 [global]
@@ -72,6 +72,7 @@ read only = no
 
 ![image](https://user-images.githubusercontent.com/110179869/190940527-4296358f-05e3-4638-aaaa-f4a18a5127af.png)
 
+## Phân quyền thư mục:
 `chmod -R 0755 /samba/PublicShare/`
 
 ![image](https://user-images.githubusercontent.com/110179869/190940571-d4fded62-2a3b-49d2-8779-6897d8dab119.png)
@@ -80,7 +81,7 @@ read only = no
 
 ![image](https://user-images.githubusercontent.com/110179869/190940637-a5a55233-9be9-43f9-89b6-edf879aac835.png)
 
-# khởi động lại Samba
+## khởi động lại Samba
 `systemctl restart smb.service`
 
 `systemctl restart nmb.service`

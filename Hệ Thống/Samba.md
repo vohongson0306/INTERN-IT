@@ -1,4 +1,7 @@
-# 1.Cài đặt Samba Server
+# 1.khái niệm
+Samba Server được xem như là 1 máy chủ tập tin (hay còn gọi là File Server) dùng trong mạng nội bộ. Samba Server là nơi để lưu trữ tập trung những thông tin của 1 tổ chức, doanh nghiệp nào đó bất kỳ đồng thời được thiết lập trên hệ thống điều hành Windows hay Linux.
+
+# 2.Cài đặt Samba Server
 `yum update -y`
 
 ![image](https://user-images.githubusercontent.com/110179869/190939602-02ba395a-9e21-41ea-8b5c-7cb67e473d63.png)
@@ -35,7 +38,7 @@ firewall-cmd --reload
 
 ![image](https://user-images.githubusercontent.com/110179869/190941661-fbe0d6e5-06bb-4966-9ec7-790cd872c2fd.png)
 
-# 2.Chia sẻ một thư mục public
+# 3.Chia sẻ một thư mục public
 `mv /etc/samba/smb.conf /etc/samba/smb.conf.bak`     # Sao lưu
 
 ![image](https://user-images.githubusercontent.com/110179869/190940342-ba800ff8-ba66-400d-ab22-61c80f3078d5.png)

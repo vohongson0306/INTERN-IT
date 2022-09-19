@@ -1,3 +1,5 @@
+<img src="https://www.totolink.vn/public/uploads/img_post/samba-server-la-gi-tong-quan-ve-giao-thuc-smb-1.jpg">
+
 # 1.khái niệm
 Samba Server được xem như là 1 máy chủ tập tin (hay còn gọi là File Server) dùng trong mạng nội bộ. Samba Server là nơi để lưu trữ tập trung những thông tin của 1 tổ chức, doanh nghiệp nào đó bất kỳ đồng thời được thiết lập trên hệ thống điều hành Windows hay Linux.
 

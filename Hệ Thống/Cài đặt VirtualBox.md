@@ -22,5 +22,4 @@
 ## Bước 7:Chọn `Finish` để kết thúc cài đặt:
 ![image](https://user-images.githubusercontent.com/110179869/190936714-e7d66f3c-d32f-4683-b4ba-beeb3a8cf102.png)
 
-## Bước 8:
 ![image](https://user-images.githubusercontent.com/110179869/190936736-e16f44f4-f27d-4479-a814-67c8d16dd9f5.png)

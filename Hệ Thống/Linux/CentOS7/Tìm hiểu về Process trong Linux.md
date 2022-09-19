@@ -23,11 +23,11 @@ Tiến trình (processes) được hiểu đơn giản là một chương trình
 ## 2.4 Daemon Process
 Một Daemon Process là một tiến trình chạy nền. Nó sẽ luôn trong trạng thái hoạt động và sẽ được kích hoạt bởi một điều kiện hoặc câu lệnh nào đó. Trong Unix, các daemon thường được kết thúc bằng “d” ví dụ như httpd, sshd, crond, mysqld,…
 # 3.Các lệnh về Process
--f : hiển thị đầy đủ thông tin về các process
+`-f` : hiển thị đầy đủ thông tin về các process
 
 ![image](https://user-images.githubusercontent.com/110179869/189083524-9026e042-3fa3-4f29-95f0-dad918298600.png)
 
--e : hiển thị đầy đủ các process ( bao gồm cả system process )
+`-e` : hiển thị đầy đủ các process ( bao gồm cả system process )
 
 ![image](https://user-images.githubusercontent.com/110179869/189083724-2409a313-f128-4d33-b9a6-eb2bd721671b.png)
 
@@ -37,13 +37,62 @@ Một Daemon Process là một tiến trình chạy nền. Nó sẽ luôn trong 
 ![image](https://user-images.githubusercontent.com/110179869/189083854-3748fe24-c208-4916-8fe4-12c6a5ef3aa4.png)
 
 
--u : hiển thị các process liên quan đến user hiện hành
+`-u` : hiển thị các process liên quan đến user hiện hành
 
 ![image](https://user-images.githubusercontent.com/110179869/189083588-609005ac-2f57-4cf4-82f2-696667aae072.png)
 
 
--p PID : hiển thị thông tin process cụ thể
+`-p PID` : hiển thị thông tin process cụ thể
 
--pgrep ssh :để tìm kiếm bất kỳ quy trình liên quan đến SSH nào trên hệ thống
+`pgrep ssh` :để tìm kiếm bất kỳ quy trình liên quan đến SSH nào trên hệ thống
 
 ![image](https://user-images.githubusercontent.com/110179869/189084694-581a327c-51d6-43ee-a244-6bb41fdc10cc.png)
+
+`top` :Kiểm tra live các process đang chạy
+
+![image](https://user-images.githubusercontent.com/110179869/190943020-46d367e9-7781-4285-b35b-a70761dffe46.png)
+
+- Thông tin được hiển thị:
+  - Dòng 1:
+    - Thời gian
+    - Máy tính đã chạy được bao lâu rồi
+    - Số lượng người dùng
+    - Trung bình tải
+    - Trung bình tải hiển thị thời gian load hệ thống trong 1, 5 và 15 phút cuối.
+  - Dòng 2:
+    - Tổng số nhiệm vụ
+    - Số lượng tác vụ đang chạy
+    - Số lượng tác vụ trong trạng thái “ngủ”
+    - Số lượng tác vụ đã dừng
+    - Số lượng tác vụ zombie (tiến trình không tồn tại)
+  - Dòng 3:
+    - Mức sử dụng CPU bởi người dùng theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi hệ thống theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi các tiến trình có mức ưu tiên thấp theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi idle process (tiến trình cho biết bộ xử lý đang rảnh rỗi) theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi io wait (thời gian CPU không hoạt động để chờ I/O disk hoàn thành) theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi việc ngắt phần cứng theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi việc ngắt phần mềm theo tỷ lệ phần trăm
+    - Mức sử dụng CPU bởi steal time (thời gian CPU ảo “chờ” CPU thực) theo tỷ lệ phần trăm
+  - Dòng 4:
+    - Tổng bộ nhớ hệ thống
+    - Bộ nhớ trống
+    - Bộ nhớ đã sử dụng
+    - Bộ nhớ đệm buffer cache
+  - Dòng 5:
+    - Tổng swap có sẵn
+    - Tổng swap còn trống
+    - Tổng swap đã sử dụng
+    - Bộ nhớ khả dụng
+  - Bảng chính:
+    - ID tiến trình
+    - Người dùng
+     - Mức độ ưu tiên
+    - Mức độ nice (gọi một tập lệnh shell với mức độ ưu tiên cụ thể)
+    - Bộ nhớ ảo được sử dụng bởi tiến trình
+    - Bộ nhớ “thường trú” mà một tiến trình sử dụng (tức là tiến trình luôn ở trong bộ nhớ và không thể chuyển ra thiết bị lưu trữ khác)
+    - Bộ nhớ có thể chia sẻ
+    - CPU được sử dụng bởi tiến trình theo tỷ lệ phần trăm
+    - Bộ nhớ được sử dụng bởi tiến trình theo tỷ lệ phần trăm
+    - Thời gian tiến trình đã được chạy
+    - Lệnh

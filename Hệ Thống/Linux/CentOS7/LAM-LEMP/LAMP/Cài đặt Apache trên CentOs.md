@@ -1,4 +1,4 @@
-Các bước cài đặt apache trên CentOS7
+# Các bước cài đặt apache trên CentOS7
 
 ![image](https://user-images.githubusercontent.com/110179869/188779201-042f52d4-87c8-4029-9442-5a8a4f2264ce.png)
 

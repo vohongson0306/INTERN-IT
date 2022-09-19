@@ -29,3 +29,5 @@
 
 # Bước 10:Chạy trình duyệt Web và truy cập vào localhost, sau đó có thể xác minh IIS đang chạy bình thường
 ![image](https://user-images.githubusercontent.com/110179869/190109998-f0403acf-eaf1-43e5-b70a-89fb3497c430.png)
+
+![image](https://user-images.githubusercontent.com/110179869/190945108-df02751a-c064-4eeb-a9b8-68eb0a748285.png)

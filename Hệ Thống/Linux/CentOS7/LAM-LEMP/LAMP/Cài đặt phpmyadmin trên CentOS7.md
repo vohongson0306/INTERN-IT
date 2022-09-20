@@ -1,15 +1,15 @@
-# Bước 1: Sử dụng lệnh sau để install epel-release CentOS:
+# Bước 1:Sử dụng lệnh sau để install epel-release CentOS:✔
  `yum install epel-release`
  
  ![image](https://user-images.githubusercontent.com/110179869/189573178-573eac1f-c11e-4c94-bb7c-c853a8cc3f5e.png)
 
-# Bước 2: Cài đặt phpMyadmin
+# Bước 2:Cài đặt phpMyadmin
 
 `yum install phpmyadmin`
 
 ![image](https://user-images.githubusercontent.com/110179869/189573310-0c4471f4-587a-4ede-acdd-5d6866a09da7.png)
 
-# Bước 3: Cấu hình phpmyadmin, bạn vào file phpmyadmin.conf để thiết lập
+# Bước 3:Cấu hình phpmyadmin, bạn vào file phpmyadmin.conf để thiết lập
 `nano /etc/httpd/conf.d/phpMyAdmin.conf`
 
 ![image](https://user-images.githubusercontent.com/110179869/189573422-d7c112ad-35af-44c5-9cdf-fd23061132b0.png)
@@ -24,7 +24,7 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/189573934-cdfdb682-8b82-45f2-8532-9a5c7fcc58a8.png)
 
-# Bước 4: Khởi động lại Apache web server
+# Bước 4:Khởi động lại Apache web server
 
 ![image](https://user-images.githubusercontent.com/110179869/189574006-96ab5b25-b5d8-4193-b442-326730d39193.png)
 

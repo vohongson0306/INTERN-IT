@@ -46,7 +46,7 @@ firewall-cmd --reload
 
 `vi /etc/nginx/conf.d/son.xyz.conf`
 
-- Thêm vào file tubui.xyz.conf nội dung sau
+- Thêm vào file son.xyz.conf nội dung sau
 ```
 server {
     listen 80;

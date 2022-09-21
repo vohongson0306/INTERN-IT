@@ -1,14 +1,32 @@
 # Cài đặt Nginx
-## Bước 1: Cài đặt EPEL repository
-`yum install epel-release -y`
+## Bước 1: Cài đặt các gói cần thiết:
+`yum install yum-utils -y`
 
-![image](https://user-images.githubusercontent.com/110179869/191187245-adfdc5be-98d8-4368-9ebd-1fa3d6858a5a.png)
+![image](https://user-images.githubusercontent.com/110179869/191394774-e54b9354-b578-40ef-92cc-27fe23657343.png)
 
-# Bước 2: Cài đặt Nginx
+# Bước 2:Thêm yum repository
+`nano /etc/yum.repos.d/nginx.repo`
+
+![image](https://user-images.githubusercontent.com/110179869/191394908-ea487632-7565-4548-a92f-018dbf4811a1.png)
+
+Dán nội dung dưới đây vào
+```
+[nginx-stable]
+name=nginx stable repo
+baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+```
+![image](https://user-images.githubusercontent.com/110179869/191395028-bb1acae0-5e6a-4c1e-b97f-48df630d2ab2.png)
+
+# Bước 3: Cài đặt Nginx
 
 `yum install nginx -y`
 
-![image](https://user-images.githubusercontent.com/110179869/191187315-077183cd-82f1-4961-b9da-97e92be13621.png)
+![image](https://user-images.githubusercontent.com/110179869/191394958-0dc19b80-3151-43c7-bfa0-0226cf70cb45.png)
+
 
 Sau khi hoàn tất ta có thể sử dụng các lệnh sau để quản lý Nginx
 ```sh
@@ -39,24 +57,6 @@ firewall-cmd --reload
 
 ![image](https://user-images.githubusercontent.com/110179869/191188054-8b756cc0-f300-4cb5-bfe3-fbfd6d671ba3.png)
 
-- Kiểm tra
+- Kiểm tra, hãy truy cập http://IP-VPS bằng trình duyệt sẽ thấy trang chào mừng của Nginx
 
-
-- Cấu hình file Vhost: Để duy trì quản lý dễ dàng, ta nên tạo một file cấu hình riêng cho mỗi miền. Các file cấu hình phải kết thúc bằng .conf và được lưu trữ tại /etc/nginx/conf.d/
-
-`vi /etc/nginx/conf.d/son.xyz.conf`
-
-- Thêm vào file son.xyz.conf nội dung sau
-```
-server {
-    listen 80;
-    server_name www.son.xyz son.xyz;
-    access_log /usr/share/nginx/html/access.log;
-    error_log /usr/share/nginx/html/error.log;
-    root /usr/share/nginx/html;
-    index index.php index.html index.htm;
-}
-```
-
-![image](https://user-images.githubusercontent.com/110179869/191188354-1c1c3b9b-0e3d-44a6-b661-1751e41f4bc5.png)
-
+![image](https://user-images.githubusercontent.com/110179869/191394117-4decc309-8dda-440d-a8bf-91b6ef35be5f.png)

@@ -1,6 +1,6 @@
 <img src="https://wiki.tino.org/wp-content/uploads/2019/01/pma-logo-1024x512.jpg">
 
-# 1.Khái niệm✔
+# 1.Khái niệm
 PhpMyAdmin là phần mềm mã nguồn mở được viết bằng ngôn ngữ PHP, giúp người sử dụng quản trị cở sở dữ liệu của MySQL thông qua giao diện web.
 
 Thay vì dùng giao diện cửa sổ dòng lệnh (command line interface), thông qua giao diện người dùng (user interface) với trình duyệt web của mình, phpMyAdmin có thể thực hiện nhiều tác vụ khác nhau. 
@@ -37,5 +37,4 @@ phpMyAdmin vẫn là công cụ được sử dụng miễn phí hoàn toàn.
 + Không được mã hóa các định dạng file xuất bằng phpMyAdmin (thiếu an toàn) và chiếm dung lượng đĩa lớn.
 
 
-♊
 

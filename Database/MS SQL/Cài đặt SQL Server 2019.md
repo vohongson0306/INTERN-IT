@@ -86,6 +86,7 @@ Cuối cùng, sau khi cài xong ta chọn Close để hoàn tất.
 
 vào ssms để login in vào
 
+![image](https://user-images.githubusercontent.com/110179869/191452559-af0f549d-cd67-4847-bcf6-b69823e69911.png)
 
 
 

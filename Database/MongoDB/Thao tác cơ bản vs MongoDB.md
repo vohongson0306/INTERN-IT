@@ -45,13 +45,22 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/191641465-3b0da09b-5366-49cf-9c47-d267bf455d32.png)
 
+![image](https://user-images.githubusercontent.com/110179869/191643642-883e74c7-038a-40d1-ab58-8c831e75bdfd.png)
 
+- Dùng lệnh select để xem dữ kiệu trong bảng
 
+![image](https://user-images.githubusercontent.com/110179869/191643716-3f9b997a-457b-468a-b516-64c64ef05b86.png)
 
+- Dùng lệnh update để cập nhật dữ liệu trong bảng
 
+![image](https://user-images.githubusercontent.com/110179869/191643890-b4e20413-0690-4be6-be76-8d89b62f8c77.png)
 
+![image](https://user-images.githubusercontent.com/110179869/191643930-1bce4e2f-197a-4dc7-b22d-32b06c8fdf7f.png)
 
+- Lệnh delete: chúng ta có thể xóa dữ liệu, xóa database
 
+![image](https://user-images.githubusercontent.com/110179869/191644000-c9a6c9d3-8690-444f-9910-027a3fabffe3.png)
 
+![image](https://user-images.githubusercontent.com/110179869/191644034-21336275-1158-4757-baa0-f97bc3fffb63.png)
 
 

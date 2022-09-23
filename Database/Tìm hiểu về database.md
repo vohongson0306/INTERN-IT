@@ -49,7 +49,7 @@ Nhắc đến Database không thể không kể đến những lợi ích tuyệ
 - Có thể hiểu đơn giản database là nơi quản lý dữ liệu của máy tính, còn DMBS sẽ là phần mềm hỗ trợ người dùng khai thác dữ liệu đó.
 - DMBS vận hành cung cấp cấp các tiện ích cơ bản như truy xuất dữ liệu, quản lý truy cập, phân tích và đọc/ghi dữ liệu.
 
-<img src="https://miro.medium.com/max/597/1*B5MJXcc4yoRiMsmkarJ7xw.png">
+<img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/08/dbms.jpg">
 
 # 6.1.Phần mềm DBMS phổ biến
 Có hai loại hệ thống DMBS phổ biến là phần mềm thuộc sở hữu tư nhân và phần mềm có mã nguồn mở miễn phí:

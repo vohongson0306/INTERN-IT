@@ -99,4 +99,3 @@ Xóa một cột tương tự thêm thay add bằng drop
         key : có là key chính hay không
         default : mặc định của cột là
 ```
-

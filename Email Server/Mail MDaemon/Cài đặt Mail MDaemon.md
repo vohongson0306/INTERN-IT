@@ -24,14 +24,14 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/192428813-c573873f-0839-4075-b368-df6e00c30d01.png)
 
-# Bước7:nhập domain name
+# Bước 7:nhập domain name
 ![image](https://user-images.githubusercontent.com/110179869/192429441-373e401a-9632-4e0a-9410-7a802a011eaf.png)
 
 pass Son0981241001.
 
 ![image](https://user-images.githubusercontent.com/110179869/192429575-6d03f983-7d58-4bd3-9d7f-c042647ceefa.png)
 
-# Bước8:ấn next để hoàn tất:
+# Bước 8:ấn next để hoàn tất:
 ![image](https://user-images.githubusercontent.com/110179869/192429689-0b3b8a62-a1dd-4524-82ab-53bf93359a38.png)
 
 # Bước 9:Đăng nhập:

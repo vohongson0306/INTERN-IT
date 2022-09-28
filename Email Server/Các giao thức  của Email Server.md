@@ -46,7 +46,7 @@ Mỗi lần nhận mail, POP sẽ download email đó về máy local (và mặc
 - Tiết kiệm không gian lưu trữ cục bộ.
 - Vẫn cho phép lưu mail cục bộ (nếu bạn cấu hình).
 
-
+# Tìm hiểu giao thức SMTP:
 
 
 

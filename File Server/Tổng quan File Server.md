@@ -1,7 +1,7 @@
 <img src="https://serverfpt.vn/wp-content/uploads/2020/11/File-server-l%C3%A0-g%C3%AC-650x375.png">
 
 # 1.Khái niệm
- File Server là thiết bị lưu trữ file trên mạng LAN, nó có thể truy cập đến tất cả các User trong mạng.
+ File server (hay máy chủ tập tin) cách gọi khác là máy chủ file server là một máy tính nối mạng cung cấp không gian để lưu trữ và chia sẻ dữ liệu như văn bản, hình ảnh, âm thanh, video. Các dữ liệu này có thể được truy cập bởi các workstation (máy trạm). Workstation này có thể kết nối được tới máy chủ khi các máy này chia sẻ quyền truy cập thông qua một mạng máy tính.
  # 2.Nhiệm Vụ
  Lưu trữ, quản lý và duy trì các file dữ liệu cho các User trên hệ thống.
  # 3.Chức năng:
@@ -26,4 +26,4 @@ Database servers, cung cấp quyền truy cập vào shared database thông qua 
 - Cộng tác không có xung đột phiên bản
 - Giảm bớt áp lực trên máy khách (có thể lưu trữ gần như không giới hạn)
 - Có thể truy cập từ xa qua WebDAV, (S) FTP hoặc SCP
-- Việc bảo vệ và bảo mật dữ liệu nằm trong tay của chính bạnm 
+- Việc bảo vệ và bảo mật dữ liệu nằm trong tay của chính bạn

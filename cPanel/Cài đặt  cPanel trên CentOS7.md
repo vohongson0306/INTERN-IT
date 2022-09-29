@@ -7,4 +7,4 @@
 ![image](https://user-images.githubusercontent.com/110179869/192993958-51568b61-89e2-44d1-bc43-de95106e2921.png)
 
 
-https://wiki.matbao.net/kb/huong-dan-cai-dat-cpanel-tren-may-chu-cloud-server/
+https://kb.pavietnam.vn/huong-dan-cai-dat-cpanel-tren-centos-7.html

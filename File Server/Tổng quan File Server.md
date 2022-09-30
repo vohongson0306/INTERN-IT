@@ -19,7 +19,7 @@ File server cũng có thể được phân loại theo phương thức truy cậ
 
 Database servers, cung cấp quyền truy cập vào shared database thông qua 1 driver, và không được coi là file server vì chúng có thể yêu cầu Record locking.
 
-# Các ưu điểm
+# 5.Các ưu điểm
 - Dễ dàng tổ chức toàn bộ kho file
 - Mức độ rõ ràng cao
 - Chia sẻ file thuận tiện

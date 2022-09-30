@@ -1,6 +1,6 @@
 <img src="https://vietnix.vn/wp-content/uploads/2022/01/cpanel-la-gi.webp">
 
-# Khái niệm:
+# I.Khái niệm:
 cPanel là web hosting control panel (công cụ quản trị web hosting) trên nền tảng Linux phổ biến nhất hiện nay. cPanel có giao diện đơn giản, linh hoạt, giúp người dùng quản lý tất cả các dịch vụ của web hosting một cách dễ dàng.
 
 Công cụ quản trị web hosting này có giao diện thân thiện với người dùng và hoạt động trên hệ thống phân cấp ba lớp như sau:
@@ -9,7 +9,7 @@ Công cụ quản trị web hosting này có giao diện thân thiện với ng�
 - Reseller.
 - End User (Người dùng cuối).
 
-# Các chức năng chính của cPanel:
+# II.Các chức năng chính của cPanel:
 ## 1. Quản lý tập tin:
 - File Manager (Trình quản lý File) – Truy cập và quản lý File nhanh chóng (tạo, chỉnh sửa, xóa) mà không cần FTP.
 - Disk Usage (Tình trạng sử dụng ổ cứng) – Các giao diện đồ họa thể hiện tình trạng sử dụng ổ cứng để hiểu và quản lý ổ cứng tốt hơn.
@@ -94,15 +94,15 @@ Công cụ quản trị web hosting này có giao diện thân thiện với ng�
 - User Preferences (Tùy chọn người dùng) – Đặt tùy chọn người dùng.
 - User Manager (Trình quản lý người dùng) – Đặt và chỉnh sửa quyền và quyền của người dùng.
 
-# Ưu nhược điểm của cPanel
+# III.Ưu nhược điểm của cPanel
 cPanel đang được được các nhà chuyên môn đánh giá là công cụ quản trị web hosting tốt nhất và được nhiều người sử dụng nhất hiện nay. Chương trình hỗ trợ khá nhiều tính năng dành cho các nhà quản trị web sử dụng dễ dàng. Tuy nhiên, bên cạnh đó cũng có một số hạn chế của cPanel, khiến người dùng khó quản lý web hosting của mình hơn. Sau đây, Vietnix sẽ chỉ ra những ưu điểm và nhược điểm của cPanel.
 
-## Ưu điểm của cPanel là gì?
+## Ưu điểm 
 - Phần mềm dễ sử dụng và ổn định.
 - Có công nghệ tiên tiến và bảo mật cao.
 - Hỗ trợ toàn cầu và thân thiện với người dùng.
 - Phần mềm chạy trên cả di động.
-## Nhược điểm của cPanel là gì?
+## Nhược điểm
 - Nhiều tính năng không cần thiết.
 - Dễ vô tình thay đổi các thông số quan trọng.
 - Một số host chạy bản cPanel cũ.

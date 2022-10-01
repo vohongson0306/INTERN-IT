@@ -30,4 +30,4 @@ systemctl stop postfix
 - Gỡ cài đặt postfix:
 ```
 yum remove postfix -y
-``
+```

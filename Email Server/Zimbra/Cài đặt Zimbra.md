@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/193379335-c014d1fe-a077-4e48-9c91-31b7498d6b31.png)
 
-![image](https://user-images.githubusercontent.com/110179869/193396436-756ca028-1fcf-45c9-99aa-8ca3572a4a38.png)
+![image](https://user-images.githubusercontent.com/110179869/193397083-653fa400-89c9-43cb-9787-16b1fd411ae4.png)
 
 # Bước 2: Chuẩn bị môi trường trên máy chủ mail
 - Tắt SELinux
@@ -32,4 +32,82 @@ systemctl stop postfix
 - Gỡ cài đặt postfix:
 ```
 yum remove postfix -y
+```
+- Reboot lại máy:
+```
+reboot
+```
+- Sửa hostname
+```
+hostnamectl set-hostname "xn--vhongson-e4a.vn"
+exec bash
+```
+- Sửa file `/etc/hosts`
+```
+nano /etc/hosts
+```
+
+- Kiểm tra xem có dịch vụ nào đang sử dụng port mà Zimbra sử dụng hay không.
+```
+yum -y install net-tools
+```
+- Cài đặt netstat.
+```
+netstat -tulpn | grep -E -w '25|80|110|143|443|465|587|993|995|5222|5223|9071|7071'
+```
+
+Nếu có service nào đang chạy trên các port trên thì tìm cách tắt đi hoặc thay thế, nếu chưa có thì thực hiện cài đặt.
+```
+yum install bind-utils
+```
+Kiểm tra lại bản ghi
+```
+dig -t A mail.xn--vhongson-e4a.vn
+
+dig -t MX xn--vhongson-e4a.vn
+```
+# Bước 3: Cài đặt Zimbra
+- Cài đặt các gói cần thiết
+```
+yum install unzip net-tools sysstat openssh-clients perl-core libaio nmap-ncat libstdc++.so.6 wget -y
+```
+
+- Cài đặt wget
+```
+yum install wget -y
+```
+- Tải và giải nén Zimbra
+```
+mkdir zimbra && cd zimbra
+```
+
+```
+wget https://files.zimbra.com/downloads/8.8.10_GA/zcs-8.8.10_GA_3039.RHEL7_64.20180928094617.tgz --no-check-certificate
+```
+
+- Cài đặt Zimbra
+```
+tar zxpvf zcs-8.8.10_GA_3039.RHEL7_64.20180928094617.tgz
+
+cd zcs-8.8.10_GA_3039.RHEL7_64.20180928094617 
+
+./install.sh
+```
+- Nhấn `Y` để tải xuống các gói liên quan đến Zimbra.
+
+- Nhấn `Y`, create lại tên domain.
+
+- Chọn `7` sau đó chọn `4` để thiết lập tài khoản admin. (Nso01_8HMj)
+
+- Chọn `r` để xem lại cài đặt, chọn `a` để áp dụng thay đổi.
+
+- Sau khi cài đặt xong khởi động lại dịch vụ zimbar bằng lệnh:
+`su zimbra`
+
+`zmcontrol restart`
+- Mở firewalld
+```
+firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
+
+firewall-cmd --reload
 ```

@@ -9,6 +9,8 @@
 
 ![image](https://user-images.githubusercontent.com/110179869/193379335-c014d1fe-a077-4e48-9c91-31b7498d6b31.png)
 
+![image](https://user-images.githubusercontent.com/110179869/193396436-756ca028-1fcf-45c9-99aa-8ca3572a4a38.png)
+
 # Bước 2: Chuẩn bị môi trường trên máy chủ mail
 - Tắt SELinux
 ```

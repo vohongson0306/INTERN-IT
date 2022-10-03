@@ -139,6 +139,7 @@ cd zcs-8.8.10_GA_3039.RHEL7_64.20180928094617
 `su zimbra`
 
 `zmcontrol restart`
+
 ![image](https://user-images.githubusercontent.com/110179869/193399103-4e4f893a-41f4-447a-bd69-4f54b7120aa7.png)
 
 - Mở firewalld

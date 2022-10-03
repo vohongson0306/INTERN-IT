@@ -43,7 +43,8 @@ Tóm lại:
 - Tóm lại, việc xây dựng một giải pháp quản lý tập trung Log hợp lý sẽ giúp cải thiện hiệu quả cho hệ thống giám sát an ninh trong việc phân tích và xử lý các biến cố. Các phân tích viên sẽ tốn ít thời gian cho việc đánh giá chính xác được các biến cố nếu khả năng tự động của hệ thống gặp trục trặc.
 - Một giải pháp tốt sẽ cho phép tất cả các biến cố an ninh quan trọng được thu thập và lưu trữ vào cơ sở dữ liệu nhằm cung cấp thông tin cho các phân tích viên an ninh, các đội ứng phó sự cố, và các bộ phận khác của tổ chức.
 # 8. Khái quát về hệ thống thu thập Log tập trung ELK
-- Elastic Stack (ELK Stack) - là một nhóm phần mềm nguồn mở, dựa trên Elastic nó cho phép tìm kiếm, phân tích, thể hiện trực quan các log thu thập được từ các nguồn, các log này là bất kỳ định dạng nào, ELK là trung tâm phân tích log. Trung tâm log này hữu ích khi trợ giúp xác định các vấn đề phát sinh trên các server, các ứng dụng mà bạn không cần truy cập trực tiếp vào log của từng server, từng ứng dụng. Thường để xây dựng nên trung tâm này dùng đến ELK với các thành phần chính gồm:
+- Elastic Stack (ELK Stack) - là một nhóm phần mềm nguồn mở, dựa trên Elastic nó cho phép tìm kiếm, phân tích, thể hiện trực quan các log thu thập được từ các nguồn, các log này là bất kỳ định dạng nào, ELK là trung tâm phân tích log. Trung tâm log này hữu ích khi trợ giúp xác định các vấn đề phát sinh trên các server, các ứng dụng mà bạn không cần truy cập trực tiếp vào log của từng server, từng ứng dụng. 
+- Thường để xây dựng nên trung tâm này dùng đến ELK với các thành phần chính gồm:
   + Elasticsearch - máy chủ lưu trữ và tìm kiếm dữ liệu
   + Logstash - thành phần xử lý dữ liệu, sau đó nó gửi dữ liệu nhận được cho Elasticsearch để lưu trữ
   + Kibana - ứng dụng nền web để tìm kiếm và xem trực quan các logs

@@ -1,6 +1,6 @@
 >> Tạo user Zimbra
 # 1. Đăng nhập
-- Vào trang quản trị admin theo link https://mail.xn--vhongson.a4e.vn:7071/zimbraAdmin . Nhập user và pass được cấp sau đó Sign in
+- Vào trang quản trị admin theo link https://mail.võhongson.vn:7071/zimbraAdmin . Nhập user và pass được cấp sau đó Sign in
 
 # 2. Sau khi đăng nhập chọn manage
 

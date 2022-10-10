@@ -1,3 +1,4 @@
+<img src="https://news.cloud365.vn/wp-content/uploads/2019/10/zabbix_logo_500x131.png">
 ## 1.Khái niệm
 + Zabbix là một công cụ để  giám sát hệ thống mạng, các thiết bị mạng, giám sát khả năng sẵn sàng và hiệu năng của mạng và thiết bị mạng. Nếu có xảy ra lỗi thì sẽ có cảnh báo gửi tới người quản trị mạng qua sms, email...
 
@@ -17,9 +18,9 @@ Zabbix dựa trên các agent và agentless để giám sát hệ thống mạng
 
 Trong Th có lỗi xảy ra zabbix cảnh báo cho người quản trị, tuy nhiên zabbix không có khả năng phát hiện hay dự đoán lỗi có thể xảy ra.
 
-**2.1. Open source**
+### 2.1. Open source**
 
-**2.2. Agent-based vs Agentless**
+### 2.2. Agent-based vs Agentless**
 
 * Agent-based
 
@@ -59,7 +60,7 @@ Remote Check: Khi cấu hình agent zabbix không hỗ trợ, nhưng truy cập 
         Executing commands via SSH or Telnet
 
 
-**2.3 Auto discovery**
+### 2.3 Auto discovery**
 
 Hệ thống được cập nhật khi hệ thông có sự thay đổi Các thiết bị mới được thêm cần được tự độ phát hiện. 
 Để theo dõi việc tự động thay đổi môi trường liên tục thay đổi được sử dụng tính năng Auto discovery.
@@ -72,17 +73,17 @@ Auto discovery có thể ping hoặc truy vấn mọi thiết bị trên mạng.
 
 Phát hiện tự động đóng một phần thiết yếu trong giám sát mạng, một số công cụ  khác không cung cấp tính năng này. Đó là lý do tại sao các quản trị mạng nên chú ý auto discovery khi chọn công cụ giám sát mạng.
 
-**2.4. Low-level discovery**
+### 2.4. Low-level discovery**
 
  Low-level discovery (LLD) được sử dụng để giám sát các hệ thống file và interface mà không cần tạo và thêm thủ công từng phần tử. LLD là một tính năng động tự động thêm và xóa các phần tử. Nó cũng tự động tạo ra triggers, graphs cho file systems, network interfaces và SNMP tables.
 
-**2.5. Trend Prediction**
+### 2.5. Trend Prediction**
 
 Một số công cụ theo dõi mạng có một tính năng dự đoán. Nó được sử dụng để phát hiện một lỗi trước khi nó xảy ra. Điều này được thực hiện bằng cách thu thập dữ liệu về băng thông mạng và trạng thái của các thiết bị theo mức độ hoạt động. Tất cả các thông tin được lưu trữ trong cơ sở dữ liệu SQL. Các kết quả giám sát tiếp theo được so sánh với thông tin được lưu trữ trong cơ sở dữ liệu. Nếu một số thay đổi giữa dữ liệu đã được tìm thấy, giám sát mạng sẽ tạo ra một cảnh báo.
 
 Dự đoán xu hướng cho phép phát hiện vấn đề trước, để quản trị viên mạng có thể giải quyết nó trước khi người dùng cuối nhận thấy nó. Mặc dù tính năng này hay nhưng hầu hết các sản phẩm vẫn không hỗ trợ tính năng này.
 
-**2.6. Logical grouping**
+### 2.6. Logical grouping**
 
 Trong các mạng lớn bao gồm nhiều thiết bị, khó để theo dõi và khắc phục tất cả các thiết bị trong quá trình giám sát mạng. Logical grouping cho phép kết hợp cùng một loại thiết bị lại với nhua. Kết quả là logical grouping giúp việc giám sát các mạng cấp doanh nghiệp dễ dàng hơn đáng kể.
 
@@ -94,36 +95,32 @@ Có thể tạo các nhóm lồng nhau cho các mạng lớn. Điều này có n
 
 ![](https://i.imgur.com/pJk3TPx.png)
 
-
 Zabbix bao gồm các thành phần sau: abbix Server, Zabbix Proxy, Zabbix Agent
 và Web Interface.
 
 + Zabbix server: Đây là thành phần trung tâm của phần mềm Zabbix. Zabbix Server có thể kiểm tra các dịch vụ mạng từ xa thông qua các báo cáo của Agent gửi về cho Zabbix Server và từ đó nó sẽ lưu trữ tất cả các cấu hình cũng như là các số liệu thống kê.
-
-
 + Zabbix Proxy: Là phần tùy chọn của Zabbix có nhiệm vụ thu nhận dữ liệu, lưu trong bộ nhớ đệm và chuyển đến Zabbix Server.
-
-
 + Zabbix Agent: Để giám sát chủ động các thiết bị cục bộ và các ứng dụng (ổ cứng, bộ nhớ…) trên hệ thống mạng. Zabbix Agent sẽ được cài lên trên Server và từ đó Agent sẽ thu thập thông tin hoạt động từ Server mà nó đang chạy và báo cáo dữ liệu này đến Zabbix Server để xử lý.
-
-
 + Web interface: Để dễ dàng truy cập dữ liệu theo dõi và sau đó cấu hình từ giao diện web cung cấp.
 
 
 ![](https://i.imgur.com/3Wz2NkO.png)
 
-**4. Ưu điểm của zabbix**
-
-Zabbix đáp ứng các yêu cầu của công cụ giám sát mạng đáng tin cậy tới 90%. Nó thực hiện cả giám sát agent-based, agentless. Hỗ trợ Low level Discovery, Auto-Discovery Logical grouping. Tất cả các tính năng nêu trên làm cho Zabbix trở thành một công cụ giám sát mạng hoàn hảo, đáp ứng đầy đủ các yêu cầu của bất kỳ mạng kích thước nào. Tuy nhiên Zabbix không hỗ trợ dự đoán TH xấu xảy ra.
-
-Zabbix là một công cụ giám sát mạng đáng tin cậy. Nếu Zabbix cảnh báo người dùng về một lỗi nào đó, có tin tưởng 100% rằng vấn đề như vậy tồn tại. Ngoài ra, một trong những lợi thế chính của Zabbix là khả năng mở rộng của nó vì nó là khả năng áp dụng cho các môi trường có kích thước bất kỳ.
-
-
-**5. Vấn đề cần cải thiện trong zabbix**
-
-**5.1. Web Interface**
+## 4. Ưu điểm của zabbix**
+- Đây là một công cụ mã nguồn mở, dễ phát triển và mở rộng theo ý người dùng. Chi phí đầu tư ban đầu thấp
+- Thực hiện chức năng giám sát toàn diện trên các thiết bị phần cứng và dịch vụ mạng 
+- Hỗ trợ tốt các máy chủ đặt trên hệ điều hành Linux
+- Giao diện thân thiện và đẹp mắt
+- Phân quyền user linh động và dễ thực hiện 
+- Thông báo các sự cố nhanh chóng qua email hoặc app
+- Các chức năng theo dõi thống kê được thực hiện chủ động, dễ thiết lập và sửa đổi
+- Sở hữu tài nguyên công cụ lớn với nhiều plugin hỗ trợ cho các dịch vụ hệ thống khác nhau
+- Có tính năng chứng thực người dùng 
+- Kết quả được trả về dưới dạng biểu đồ trực quan, dễ phân tích và đánh giá.
+## 5. Vấn đề cần cải thiện trong zabbix**
+### 5.1. Web Interface**
 Thao tác sử dụng hiện tại của giao diện người dùng quá phức tạp. Người dùng cho Zabbix mới có thể gặp sự cố với Giao diện web. Một số thao tác cơ bản có thể tốn thời gian ngay cả đối với người dùng có kinh nghiệm. Phải thao tác quá nhiều cho một hoạt động cơ bản.
 
-**5.2. API**
+### 5.2. API**
 API có thể có hiện tượng rất chậm, đặc biệt là khi nói đến các hoạt động template linking. Ví dụ, có 10000 host và quản lý một mạng muốn liên kết chúng thành một template đơn giản. Nó sẽ mất khoảng 10-20 phút, tùy thuộc vào phần cứng. Ngoài ra, nó sẽ tạo ra quá nhiều truy vấn SQL. Số lượng họ thậm chí có thể đạt đến hàng triệu.
 

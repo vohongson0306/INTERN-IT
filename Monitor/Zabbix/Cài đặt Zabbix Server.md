@@ -137,4 +137,5 @@ firewall-cmd --reload
 
 - Giao diện `Zabbix Server`
 
-![image](https://user-images.githubusercontent.com/110179869/194794121-57e22558-1631-4247-86e8-b97a7c4a0ea8.png)
+![image](https://user-images.githubusercontent.com/110179869/194836971-3160e958-fdd6-4f94-86e2-0aa346ad0ebe.png)
+

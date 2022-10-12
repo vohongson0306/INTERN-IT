@@ -27,42 +27,62 @@ Trước khi cấu hình CSF, chúng ta cần tìm hiểu các quy ước về t
 ```
           nano /tmp/csf/csf.conf
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229022-01b1850e-5bab-4811-bde4-4554cb8488f7.png)
+
 - Chúng ta bắt đầu thực hiện config CSF. Đầu tiên hãy mở file: csf.conf và chỉnh sửa theo hướng dẫn bên dưới:
 ```
 TESTING = "0"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229084-362b55b8-1c1c-491e-8b97-1c1f07407253.png)
+
 - Mặc định khi cài xong CSF thì TESTING = “1″, với TESTING = “1″ thì LFD daemon (Login Fail Detect daemon) sẽ không hoạt động, do đó nếu máy chủ bị tấn công thì CSF cũng sẽ không block IP tấn công.
 ```
 TESTING_INTERVAL = "5"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229192-bf5972e8-d6d9-4328-8754-2821db5602c5.png)
+
 - Thời gian chạy cronjob để clear iptables nếu như TESTING=1 , tính bằng phút.
 ```
 AUTO_UPDATES = "0"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229299-5afb0da9-6c5c-45a8-acb5-81f3cf1b522c.png)
+
 - Tắt chế độ auto update của CSF.
 ```
 TCP_IN = "22,25,53,80,443"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229454-048c6f7c-6cc1-4d58-b646-4ecb1fffdde4.png)
+
 - Cho phép kết nối TCP qua các cổng: Dùng cho các dịch vụ SSH, sendmail, DNS, Web trên server. (nếu bạn không sử dụng https và email có thể bỏ 25 và 443).
 ```
 TCP_OUT = "25,80"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229552-2eef7441-8cb6-4ab5-99fc-35f782f1808a.png)
+
 - Cho phép kết nối từ máy chủ ra bên ngoài: cho phép server kết nối đến web server, sendmail server khác.
 ```
 UDP_IN = "53"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229631-39c27a03-f73c-4ee4-8abb-9804a6133818.png)
+
 - Cho phép người dùng sử dụng dịch vụ DNS trên server.
 ```
 UDP_OUT = "53"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229680-dc879475-3743-4e9b-b5e3-0348580266a4.png)
+
 - Cho phép server truy vấn DNS bên ngoài.
 ```
 ICMP_IN = "1"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229752-6f59b7a6-2ad5-4b40-ac3e-8723d34b6302.png)
+
 - Cho phép người dùng thực hiện lệnh ping đến server.
 ```
 ICMP_IN_RATE = "20/s"
 ```
+![image](https://user-images.githubusercontent.com/110179869/195229801-04e05ce2-197b-4ae0-8e0f-5ae335126000.png)
+
 - Nếu để giá trị này thấp thì khi ping sẽ nhận được giá trị request time out.
 ```
 ETH_DEVICE = "eth0"
@@ -91,8 +111,11 @@ PACKET_FILTER = "1"
 - Filter các gói tin TCP không hợp lệ… )
 ```
 IPV6 = "0"
+```
+![image](https://user-images.githubusercontent.com/110179869/195230116-52bc1167-8961-495b-960c-ef619ec4ee90.png)
 
 Disable IPV6 support.
+```
 SYNFLOOD = "1" SYNFLOOD_RATE = "30/s" SYNFLOOD_BURST = "40"
 ```
 - Bật chức năng synflood protection : Nếu 1 IP gửi 30 cú pháp SYN trong vòng 1s và số lượng SYN connection tồn tại trên server đạt trên 40 thì block tạm thời IP đó.
